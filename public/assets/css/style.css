@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --bs-primary: #4564e5;
+  --soft-blue: #f1f5fb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serifl;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-soft-blue {
+  background-color: var(--soft-blue);
+}
+
+.fs-7 {
+  font-size: 14px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+  border-color: var(--bs-primary);
+}
+
+.form-control,
+.btn {
+  border-radius: 0.5rem;
+  padding: 10px 18px;
+}
+
+.btn {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.card {
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  transition: 0.3s all ease;
+}
+
+.card:hover {
+  border-color: var(--bs-primary);
+}
+
+.card-body {
+  padding: 3rem;
+}
+
+.table thead tr th {
+  color: #6c757d;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.success-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.success-icon i {
+  font-size: 40px;
+}
